@@ -30,3 +30,4 @@ map("n", "H", vim.diagnostic.open_float, opts)
 -- 	false
 -- )
 -- vim.api.nvim_command([[autocmd CursorHold * lua vim.diagnostic.open_float(nil, { focusable = false })]])
+

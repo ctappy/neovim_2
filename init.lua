@@ -10,6 +10,8 @@ require("keymap")
 -- Settings
 require("settings")
 -- require("terminal")
+-- vim.opt.mouse = "a"
+vim.cmd([[set mouse-=a]])
 
 -- LSP
 require("lsp.init")

@@ -3,3 +3,4 @@ local map = global.map
 local mapOptions = global.mapOptions
 
 map("n", "<C-t>", ":ToggleTerm direction=float<cr>", mapOptions)
+-- map("n", "<C-t>", ":NvimTreeToggle<cr>", mapOptions)

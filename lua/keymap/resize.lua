@@ -8,3 +8,5 @@ map("n", "<A-k>", ":resize -2<CR>", mapOptions)
 map("n", "<A-j>", ":resize +2<CR>", mapOptions)
 map("n", "<A-l>", ":vertical resize -2<CR>", mapOptions)
 map("n", "<A-h>", ":vertical resize +2<CR>", mapOptions)
+
+map("n", "<A-t>", ":NvimTreeToggle<cr>", mapOptions)

@@ -2,11 +2,14 @@
 -- Link : https://github.com/windwp/windline.nvim
 
 local M = {
-  "windwp/windline.nvim",
-  config = function()
-    require("packer.settings.windline")
+  -- "windwp/windline.nvim",
+  -- config = function()
+    -- require("wlsample.vscode")
     -- require("windline").add_status(require("spectre.state_utils").status_line())
-  end,
+
+    -- require("packer.settings.windline")
+    -- require("windline").add_status(require("spectre.state_utils").status_line())
+  -- end,
 }
 
 return M
